@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: 'Darlington';
+    src: url(fonts/DarlingtonDemo-z8xjG.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Marvel';
+    src: url(fonts/MarvelRegular-Dj83.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'lupina';
+    src: url(fonts/LupinademoRegular-X3ovd.otf) format('truetype');
+}
+body{
+    background-image: linear-gradient( to right,  #0F2027,#203A43,#751c40);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-fluid{
+    color: white;
+    padding: 0px;
+} 
+.progress{
+    width: 400px;
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav a{
+    color: #e9e9e9 ;
+}
+.navbar-brand{
+    font-family: 'Darlington',sans-serif;
+    font-size: 50px;
+}
+.nav-link{
+    word-spacing: 10px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    height: 500px;
+    background-image: url('https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbHBhcGVyfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intropic1{
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+.intropic1 p{
+    font-family: 'lupina',sans-serif;
+    font-weight: 10px;
+}
+
+.intropic2 img{
+    padding-right: 10px;
+    margin-left: 50px;
+    border-radius: 50%;
+    height: 300px;
+    width: auto;
+}
+
+
+.projects{
+    padding: 5px 0px 5px 0px;   
+    margin: 20px 0px 20px 0px;
+    height: 500px;
+}
+.projects .col-sm-4{
+    color: black;
+}
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+    height: 500px;
+}
+.work1{
+    height: 350px;
+    width: 400px;
+}
+
+.work2 li{
+    list-style: none;
+}
+.work2 li::before{
+    content: "\26C8";
+    color: aqua;
+}
+
+.proficiency{
+    height: 500px;
+    margin: 0px 0px 20px 0px;
+    padding: 2px 5px 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bar2{
+    width: 500px;
+}
+.bar2 img{
+    width: 500px;
+}
+
+.certificates .row{
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    color: black;
+}
+
+.education{
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    color: #272829;
+}
+
+.edu1 .card{
+    border: 5px solid #751c40;
+}
+
+.edu2 img{
+    height: 400px;
+    image-rendering:auto;
+    
+}
+.contacts{
+    background-color: #272829;
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+}
